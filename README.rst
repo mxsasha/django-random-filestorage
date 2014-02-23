@@ -3,7 +3,7 @@ django-random-filestorage
 =============================
 
 .. image:: https://badge.fury.io/py/django-random-filestorage.png
-    :target: http://badge.fury.io/py/django-random-filestorage
+    :target: https://badge.fury.io/py/django-random-filestorage
 
 .. image:: https://travis-ci.org/erikr/django-random-filestorage.png?branch=master
     :target: https://travis-ci.org/erikr/django-random-filestorage
@@ -21,7 +21,7 @@ names used by your users.
 Documentation
 -------------
 
-The full documentation is at http://django-random-filestorage.rtfd.org.
+The full documentation is at https://django-random-filestorage.readthedocs.org.
 
 Quickstart
 ----------
