@@ -17,6 +17,7 @@ develop-eggs
 .installed.cfg
 lib
 lib64
+virtualenv
 
 # Installer logs
 pip-log.txt
@@ -29,10 +30,11 @@ nosetests.xml
 # Translations
 *.mo
 
-# Mr Developer
+# IDE
 .mr.developer.cfg
 .project
 .pydevproject
+.idea
 
 # Complexity
 output/*.html
