@@ -80,5 +80,8 @@ Once a user knows the random string that was used to name the file, they could p
 they could just as well download the file and provide it to others in some other way.
 
 If you would like stricter control over who accesses certain files, you'll have to prevent direct access to (part of)
-the media directory, and serve those files through a Django view instead. However, this comes at an additional
-performance cost.
+the media directory. You can serve those files through a Django view instead, but this comes at an additional
+performance cost. A more performant but more complex alternative is to use Apache sendfile_ or nginx X-accel_.
+
+.. _sendfile: https://tn123.org/mod_xsendfile/
+.. _X-accel: http://wiki.nginx.org/X-accel
