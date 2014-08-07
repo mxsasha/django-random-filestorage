@@ -25,7 +25,8 @@ Documentation
 The full documentation is at https://django-random-filestorage.readthedocs.org.
 
 Security warning
-================
+----------------
+
 .. warning ::
     Never use django-random-filestorage for cases where the uploaded files may contain links,
     such as PDF files. In that case, the secrecy of your URLs can be compromised by being
