@@ -12,7 +12,7 @@ class RandomFileSystemStorage(FileSystemStorage):
         file_root, file_ext = os.path.splitext(name)
         return "%s%s" % (get_random_string(RANDOM_FILENAME_LENGTH).lower(), file_ext)
 
-    def get_available_name(self, name):
+    def get_available_name(self, name, max_length=None):
         dir_name, file_name = os.path.split(name)
         file_root, file_ext = os.path.splitext(file_name)
         while self.exists(name):
