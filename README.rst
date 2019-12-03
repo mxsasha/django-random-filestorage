@@ -2,6 +2,10 @@
 django-random-filestorage
 =============================
 
+=============================
+This project is legacy, unmaintained, and not recommended to use
+=============================
+
 
 .. image:: https://badge.fury.io/py/django-random-filestorage.png
     :target: https://badge.fury.io/py/django-random-filestorage
